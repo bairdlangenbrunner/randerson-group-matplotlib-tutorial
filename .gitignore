@@ -2,6 +2,7 @@
 ################
 *.npy
 *.mp4
+.ipynb_checkpoints/
 
 # Compiled source #
 ###################
