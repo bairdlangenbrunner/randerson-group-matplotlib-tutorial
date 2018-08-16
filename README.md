@@ -24,3 +24,31 @@ by Baird
   * Raster data
     * Plotting a LandSat image
     * Plotting a MODIS image
+
+### Directory structure
+
+```
+.
+|—— .git
+|—— .gitignore
+|—— README.md
+
+|—— data-files
+    |—— precip.mon.mean.nc
+    |—— sst.mnmean.nc
+    |—— LANDSAT files
+    |—— MODIS files
+
+|—— figures
+    |—— panel_plot_a.png
+    |—— panel_plot_b.png
+
+|—— notebook-files
+    |—— 1-matplotlib-basics.ipynb
+    |—— 2-panel-plots.ipynb
+    |—— 3-prettying-up-plots.ipynb
+    |—— 4a-cartopy.ipynb
+    |—— 4b-plotting-LandSat-data.ipynb
+    |—— 4c-plotting-MODIS-data.ipynb
+    |—— 5-best-practices.ipynb
+```
