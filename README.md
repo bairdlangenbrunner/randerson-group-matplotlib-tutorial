@@ -5,7 +5,8 @@ by Baird
 
 If you plan to run these scripts on your own machine, use the `conda-environment-file.yml` file to install all the necessary packages.  More info on this from the conda documentation:  [Creating an environment from an environment yml file](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
 
-### Contents
+### Jupyter Notebook files in the `notebook-files`:
+
 #### 1. ```matplotlib``` basics
   * Summary of plotting methods
   * Creating ```Figure``` and ```Axes``` objects
@@ -21,8 +22,8 @@ If you plan to run these scripts on your own machine, use the `conda-environment
 #### 4. Polishing up plots for publication
 
 #### 5. Plotting remote sensing (raster) data
-  * MODIS (HDF) files
-  * LandSat (GeoTIFF) files
+  * (a) MODIS (HDF) files
+  * (b) LandSat (GeoTIFF) files
 
 ### Directory structure
 
