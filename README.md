@@ -5,25 +5,22 @@ by Baird
 
 ### Contents
 #### 1. ```matplotlib``` basics
+  * Summary of plotting methods
   * Creating ```Figure``` and ```Axes``` objects
-  * Figure size
-  * Transform keyword
-  * Interactive vs. static figures
 
 #### 2. Panel plots
   * Creating equally-sized panel plots
   * Creating nonuniformly-sized panel plots (gridspec)
   * Axes embedded within other axes
 
-#### 3. Prettying up your plots
-  * Accessible colormaps (```cmocean```, ```seaborn```)
-  * Controlling font sizes
+#### 3. ```cartopy``` and maps
+  * Quick intro using NetCDF file
 
-#### 4. ```cartopy``` and maps
-  * quick intro using NetCDF file
-  * Raster data
-    * Plotting a LandSat image
-    * Plotting a MODIS image
+#### 4. Polishing up plots for publication
+
+#### 5. Plotting remote sensing (raster) data
+  * MODIS (HDF) files
+  * LandSat (GeoTIFF) files
 
 ### Directory structure
 
@@ -32,23 +29,36 @@ by Baird
 |—— .git
 |—— .gitignore
 |—— README.md
+|—— conda-environment-file.yml
 
 |—— data-files
+    |—— LC08_L1GT_226057_20180815_20180815_01_RT_B2.TIF
+    |—— LC08_L1GT_226057_20180815_20180815_01_RT_B3.TIF
+    |—— LC08_L1GT_226057_20180815_20180815_01_RT_B4.TIF
+    |—— LC08_L1GT_226057_20180815_20180815_01_RT_thumb_small.jpg
+    |—— MOD13A2.A2018113.h12v08.006.2018129234917.hdf
     |—— precip.mon.mean.nc
     |—— sst.mnmean.nc
-    |—— LANDSAT files
-    |—— MODIS files
+    |—— sstoi.indices
 
 |—— figures
-    |—— panel_plot_a.png
-    |—— panel_plot_b.png
+    |—— 3-maps-using-cartopy.pdf
+    |—— 4-publication-quality-example.pdf
+    |—— 5-landsat-true-color.pdf
+    |—— 5-modis-with-coastlines.pdf
 
 |—— notebook-files
     |—— 1-matplotlib-basics.ipynb
-    |—— 2-panel-plots.ipynb
-    |—— 3-prettying-up-plots.ipynb
-    |—— 4a-cartopy.ipynb
-    |—— 4b-plotting-LandSat-data.ipynb
-    |—— 4c-plotting-MODIS-data.ipynb
-    |—— 5-best-practices.ipynb
+    |—— 2-panel-plots-and-embedded-axes.ipynb
+    |—— 3-maps-in-cartopy.ipynb
+    |—— 4-publication-quality-figures.ipynb
+    |—— 5b-plotting-LandSat-data.ipynb
+    |—— 5a-plotting-MODIS-data.ipynb
+    |—— png-files
+        |—— anatomy1.png
+        |—— ax_pos_example.png
+        |—— creating_figures_for_examples.ipynb
+        |—— fig_map.png
+        |—— grid_example_equal_size.png
+        |—— gridspec_example.png
 ```
