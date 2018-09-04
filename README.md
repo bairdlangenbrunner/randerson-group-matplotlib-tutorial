@@ -52,8 +52,8 @@ by Baird
     |—— 2-panel-plots-and-embedded-axes.ipynb
     |—— 3-maps-in-cartopy.ipynb
     |—— 4-publication-quality-figures.ipynb
-    |—— 5b-plotting-LandSat-data.ipynb
     |—— 5a-plotting-MODIS-data.ipynb
+    |—— 5b-plotting-LandSat-data.ipynb
     |—— png-files
         |—— anatomy1.png
         |—— ax_pos_example.png
