@@ -5,7 +5,7 @@ by Baird
 
 If you plan to run these scripts on your own machine, use the `conda-environment-file.yml` file to install all the necessary packages.  More info on this from the conda documentation:  [Creating an environment from an environment yml file](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
 
-### Jupyter Notebook files in the `notebook-files`:
+### Jupyter Notebook files in the `notebook-files` directory:
 
 #### 1. ```matplotlib``` basics
   * Summary of plotting methods
