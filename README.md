@@ -1,7 +1,7 @@
 # Randerson group plotting tutorial
 
 by Baird  
-21 August 2018
+4 September 2018
 
 ### Contents
 #### 1. ```matplotlib``` basics
